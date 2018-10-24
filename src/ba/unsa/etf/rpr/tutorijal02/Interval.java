@@ -140,7 +140,6 @@ public class Interval {
         return s;
     }
 
-    //@override
     public boolean equals(Interval i){
         return ((pocetnaTacka-i.pocetnaTacka)<0.0000001 && (krajnjaTacka-i.krajnjaTacka)<0.0000001
                 && pocetnaPripada==i.pocetnaPripada && krajnjaPripada==i.krajnjaPripada);
